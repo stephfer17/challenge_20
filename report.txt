@@ -1,0 +1,28 @@
+The purpose of the analysis was to create a Supervised Learning program that can help determine if an applicant will be a high loan risk or not. 
+This is important to banks , as it can speed up process of giving out loans towards their customers and knowing how much money to give out for those loans.
+From the data collected there were 75036 that had good credit scores and 2500 that did not. Using the loan status column to determine if its a safe to lend a loan out to that customer.
+After spilting the data into test and trainning data than making a liner regression. The results showed a 99% accuary towards the machine learning.
+It was done again by Randomizing the data and it still came with a 99% accaury towards determing if the customer is a high risk or not.
+
+## Results
+For the first test
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      1.00     18765
+           1       0.85      0.91      0.88       619
+
+    accuracy                           0.99     19384
+   macro avg       0.92      0.95      0.94     19384
+weighted avg       0.99      0.99      0.99     19384
+
+For the second test
+ precision    recall  f1-score   support
+
+           0       1.00      0.99      1.00     18765
+           1       0.84      0.99      0.91       619
+
+    accuracy                           0.99     19384
+   macro avg       0.92      0.99      0.95     19384
+weighted avg       0.99      0.99      0.99     19384
+Cleary the model that was used on the data was a really strong indicator if a customer is a high risk when comes giving out loans 
+
